@@ -11,38 +11,37 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
-    description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+    name: 'Painless Budgeting',
+    description: 'An easy way to budget without having to enter transactions.',
+    link: {
+      href: 'https://painlessbudgeting.com',
+      label: 'painlessbudgeting.com',
+    },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
-    description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+    name: 'Goodnight Trail',
+    description: 'Our van travels',
+    link: { href: 'https://goodnighttrail.com', label: 'goodnighttrail.com' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+    name: 'Sweetgrass Wyoming HOA',
+    description: "Website for the homeowner's association I live in",
+    link: { href: 'https://sweetgrasswyhoa.org', label: 'sweetgrasswyhoa.org' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+    name: 'Price Book',
+    description: 'An old iPhone app for keeping track of prices',
+    link: { href: '#', label: '' },
     logo: logoCosmos,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Cardinal Health',
     description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
+      'Various PHP web applications that I upgraded, added Okta authentication to and helped move in house.',
+    link: { href: '#', label: '' },
     logo: logoOpenShuttle,
   },
 ]
@@ -62,7 +61,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Bill Nalen</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."

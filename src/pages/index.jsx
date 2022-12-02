@@ -139,35 +139,21 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'WTW',
+      title: 'Associate Director - Systems Development',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '1989',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Cardinal Health',
+      title: 'Contractor',
+      logo: logoPlanetaria,
+      start: '2015',
+      end: '2021',
     },
   ]
 
@@ -250,28 +236,24 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
-        </title>
+        <title>Bill Nalen - Software developer</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m Bill Nalen, a software developer currently living in Cheyenne, Wyoming."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Software developer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Bill Nalen, a software developer currently living in Cheyenne,
+            Wyoming
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/nalenb"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
@@ -281,7 +263,7 @@ export default function Home({ articles }) {
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/nalenb"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
